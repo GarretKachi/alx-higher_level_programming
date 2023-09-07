@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-# Python function that does exactly the same as the provided Python bytecode
+# Py func that does exactly the same as provided Python bytecode
 
 def magic_calculation(a, b):
-
     from magic_calculation_102 import add, sub
 
     if a < b:
