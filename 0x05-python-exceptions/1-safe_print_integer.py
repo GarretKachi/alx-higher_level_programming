@@ -2,8 +2,7 @@
 # function that prints an integer with a certain format
 
 def safe_print_integer(value):
-
-     try:
+    try:
         print("{:d}".format(value))
         return (True)
     except (TypeError, ValueError):
