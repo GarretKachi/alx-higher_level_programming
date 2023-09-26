@@ -1,9 +1,11 @@
 #!/usr/bin/python3
-# function that executes a function safely.
 
 import sys
 
+
 def safe_function(fct, *args):
+    """function that executes a function safely
+    """
     try:
         result = fct(*args)
         return (result)
