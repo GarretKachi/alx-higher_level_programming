@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# function that executes a function safely.
 
 import sys
 
