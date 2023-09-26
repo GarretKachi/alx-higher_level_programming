@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# python function that does same as Python bytecode
+# python Python bytecode
 
 def magic_calculation(a, b):
     result = 0
