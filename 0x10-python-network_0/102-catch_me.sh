@@ -1,3 +1,3 @@
 #!/bin/bash
-# Script that makes a request to 0.0.0.0:5000/catch_me that causes the server to respond with a message containing You got me!, in the body of the response
-curl -o /dev/null -sw "You got me!" 100.26.237.127:5000/catch_me
+# Script that makes a request to 0.0.0.0:5000/catch_me that causes the server to respond with a message containing You got me!
+curl -o /dev/null -sw "You got me!" 0.0.0.0:5000/catch_me
